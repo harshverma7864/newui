@@ -16,11 +16,12 @@
             height: 200vh;
         }
         .offcanvas{
-            color: white;
-            background: rgba(0, 0, 0, 0.438);
+            color: black;
+            background: white;
             width: 15vw;
         }
         .offcanvas-body ul li{
+          color: black;
             height: 5vh;
             margin: 2vh;
             list-style-type: none;
@@ -167,13 +168,27 @@ text-decoration: none;
     width: 100%;
                 
             }
-            .e h2{
-              font-size: 50px;
+            .e p{
+              font-size:40px;
               text-align: center; 
-              font-family: 'Nunito Sans', sans-serif;
+              font-weight: bolder;
+              color: black;
+              
+            }
+            .cbox{
+              width: 13vw;
+              margin: 1vh;
+              height:30vh;
+              background-color: rgb(224, 243, 237);
+              border-radius: 10px;
+              text-align: center;
               color: black;
             }
-        @media screen and (max-width:370px){
+            .cbox img{
+              width: 95%;
+              height: 20vh;
+            }
+        @media screen and (max-width:440px){
             #topleft{
                 width: 39%;
             }
@@ -186,6 +201,10 @@ text-decoration: none;
             .offcanvas{
               width: 65vw;
             }
+            .cbox{
+              width: 60vw;
+              height: 35vh;
+            }
             #topright svg{
                 margin: 1vh;
             }
@@ -196,7 +215,7 @@ text-decoration: none;
             }
             .main{
                 top: 7vh;
-                left: 3vh;
+                left: 1.7vh;
 
             }
             .box3{
@@ -204,7 +223,6 @@ text-decoration: none;
             }
             .box31{
             width: 85%;
-            background-color: rgb(243, 207, 228);
             margin: 3vh;
             height: 45vh;
         }
@@ -240,11 +258,15 @@ text-decoration: none;
         #box42 img{
             height: 48vh;
         }
-        .e h2{
+        .e p{
           font-size: 40px;
           text-align: center; 
-          font-family: 'Nunito Sans', sans-serif;
           color: black;
+          font-weight: bold;
+
+        }
+        .banner{
+           margin-top: 2vh;
         }
         }        
     </style>
@@ -263,21 +285,27 @@ text-decoration: none;
                     </div>
                         <div class="offcanvas-body">
                             <ul>
-                              <a href="#"><li style="color:rgb(250, 246, 246)">Home</li></a>
-                              <a href="#"><li style="color:rgb(250, 246, 246)">About</li></a>
-                              <a href="#"><li style="color:rgb(250, 246, 246)">Contact Us</li></a>
-                              <a href="/login" style="color:rgb(250, 246, 246)"><li>login</li></a>
+                              <a href="#"><li >Home</li></a>
+                              <a href="#"><li>About</li></a>
+                              <a href="#"><li >Contact Us</li></a>
+                              <a href="/login"><li>login</li></a>
                               
-                              <a href="/fetchorders"><li style="color:rgb(250, 246, 246)">Your Orders</li></a>
-                              <a href="/logout"><li style="color:rgb(250, 246, 246)">logout</li></a>
-                              <a href="/updatedetails"><li style="color:rgb(250, 246, 246)">Settings</li></a>
+                              <a href="/fetchorders"><li >Your Orders</li></a>
+                              <a href="/logout"><li >logout</li></a>
+                              <a href="/updatedetails"><li >Settings</li></a>
                             </ul>
+                                         </div>
+
+                                         <div class="cbox shadow-lg">
+                                          <img src="monkey2.png" alt="">
+                                          <h4>Invite Friends</h4>
+                                          <h6>Get discount coupons</h6>>
                                          </div>
                   </div>
 
             </div>
         </div>
-        <h2 ><em>Dwain India</em></h2>
+        <p ></h2> Dwain India</p>
     </div>
     <div class="main shadow-lg">
         <div class="top">
@@ -351,7 +379,7 @@ text-decoration: none;
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                       <div class="ms-2 me-auto">
                         <div class="fw-bold">Fast-Food</div>
-                        Delicious food at your fingertips
+                        Delicious food 
                       </div>
                       <span class="badge icon rounded-circle"><img src="f.png" alt=""></span>                         
                     </li>
@@ -372,21 +400,21 @@ text-decoration: none;
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                       <div class="ms-2 me-auto">
                         <div class="fw-bold">Sports equipments</div>
-                        All sports and fitness equipments
+                        All sports and fitness 
                       </div>
                       <span class="badge icon rounded-circle"><img src="S.jpg" alt=""></span>                         
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                       <div class="ms-2 me-auto">
                         <div class="fw-bold">Hardware and Electronics</div>
-                        Pipelines and Electrical equipments
+                        Pipelines and Electrical 
                       </div>
                       <span class="badge icon rounded-circle"><img src="Hard.png" alt=""></span>                         
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                       <div class="ms-2 me-auto">
                         <div class="fw-bold">Home Appliances</div>
-                        All home decor and appliances
+                        All home appliances
                       </div>
                       <span class="badge icon rounded-circle"><img src="Home.jpg" alt=""></span>                         
                     </li>
